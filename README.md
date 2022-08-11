@@ -4,12 +4,12 @@ This repository contains some of the most significant algorithms utilized for co
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Description](#description)
 - [Status](#status)
 - [License](#license)
 - [Authors](#authors)
 
-## Introduction
+## Description
 The development of this collection has a purpose of solving the exercises of the postgraduate course named *Advanced Convex Optimization*, taught by Professor A. P. Liavas in the Spring Semester of 2021-2022 at [Technical University of Crete](https://www.tuc.gr).
 
 Both the presentation (ignore the various colors on the fonts) and the solutions of the exercises are provided in order to make the code more clear. An effort has been made so that the solutions also contain the necessary theoretical background required by a beginner on the optimization field. All exercises are based on the following book, whose study should be proved especially helpful:
