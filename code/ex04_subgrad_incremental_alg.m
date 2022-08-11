@@ -1,0 +1,24 @@
+function [x, fx] = ex04_subgrad_incremental_alg(x0, f, subgrad_fi, stepsize, epochs, m)
+%   EX04_SUBGRAD_INCREMENTAL_ALG Implements the incremental subgradient descent algorithm.
+%
+%   [X, FX] = EX04_SUBGRAD_INCREMENTAL_ALG(X0, F, SUBGRAD_FI, STEPSIZE, EPOCHS, M)
+%   Executes the incremental subgradient descent algorithm for function F. 
+%   SUBGRAD_FI is a function which belongs to the subdifferential set of Fi,
+%   i=1,...,M and X0 the starting point of the algorithm. Moreover, STEPSIZE
+%   function determines the step size of the algorithm, and EPOCHS is the
+%   number of iterations for the algorithm. The return variables contain the
+%   points X and the function values FX of the algorithmic steps, from the
+%   starting point until the end.
+
+    x = x0; %Initial point
+    fx = f(x0); %Value of f at x0
+    
+    x_iter = x0;
+    for e=1:epochs
+        for mm = 1:m
+            x_iter = x_iter - stepsize(e)*subgrad_fi(m, x_iter);
+        end
+        x = [x, x_iter];
+        fx = [fx; f(x_iter)];
+    end
+end
