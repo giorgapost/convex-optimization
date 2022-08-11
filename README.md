@@ -12,9 +12,9 @@ This repository contains some of the most significant algorithms utilized for co
 ## Introduction
 The development of this collection has a purpose of solving the exercises of the postgraduate course named *Advanced Convex Optimization*, taught by Professor A. P. Liavas in the Spring Semester of 2021-2022 at [Technical University of Crete](https://www.tuc.gr).
 
-Both the presentation and the solutions of the exercises are provided in order to make the code more clear. An effort has been made so that the solutions also contain the necessary theoretical background required by a beginner on the optimization field. All exercises are based on the following book, whose study should be proved especially helpful:
+Both the presentation (ignore the various colors on the fonts) and the solutions of the exercises are provided in order to make the code more clear. An effort has been made so that the solutions also contain the necessary theoretical background required by a beginner on the optimization field. All exercises are based on the following book, whose study should be proved especially helpful:
 
-[Beck, Amir. *First-order methods in optimization*. Society for Industrial and Applied Mathematics, 2017.](https://epubs.siam.org/doi/book/10.1137/1.9781611974997)
+- [Beck, Amir. *First-order methods in optimization*. Society for Industrial and Applied Mathematics, 2017.](https://epubs.siam.org/doi/book/10.1137/1.9781611974997)
 
 Finally, do not hesitate to contact me for any questions or suggestions.
 
